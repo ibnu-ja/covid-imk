@@ -39,30 +39,30 @@ class Indonesia extends StatelessWidget {
               //ADAPUN CARD YANG AKAN MERENDER DATANYA KITA PISAHKAN LAGI KE COMPONENT SENDIRI
               //DIMANA DATA YANG DIKIRIMKAN ADALAH TOTAL, LABEL, WARNA DAN UKURAN HURUFNYA
               SummaryCard(
-                total: data.summary.confirmed.toString(),
+                total: data.summary.newconfirmed.toString(),
                 label: 'Terkonfirmasi',
                 color: Colors.yellowAccent[100],
                 size: 35,
               ),
               SummaryCard(
-                total: data.summary.activeCare.toString(),
+                total: data.summary.newdeaths.toString(),
                 label: 'Dalam Perawatan',
                 color: Colors.purple[100],
                 size: 35,
               ),
               SummaryCard(
-                total: data.summary.recovered.toString(),
+                total: data.summary.newrecovered.toString(),
                 label: 'Sembuh',
                 color: Colors.greenAccent[100],
                 size: 35,
               ),
               SummaryCard(
-                total: data.summary.deaths.toString(),
+                total: data.summary.totalconfirmed.toString(),
                 label: 'Meninggal',
                 color: Colors.red[300],
                 size: 35,
               ),
-            ],
+            ],  
           ),
         ),
       ],

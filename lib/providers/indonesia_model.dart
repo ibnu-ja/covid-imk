@@ -1,9 +1,12 @@
 class IndonesiaModel {
-  final int confirmed;
-  final int recovered;
-  final int deaths;
-  final int activeCare;
+  final int newconfirmed;
+  final int totalconfirmed;
+  final int newrecovered;
+  final int totalrecovered;
+  final int newdeaths;
+  final int totaldeaths;
+
 
   IndonesiaModel(
-      {this.confirmed, this.recovered, this.deaths, this.activeCare});
+      {this.newconfirmed,this.totalconfirmed, this.newrecovered,this.totalrecovered, this.newdeaths,this.totaldeaths,});
 }

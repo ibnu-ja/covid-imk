@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Home(),
-        title: 'Corona - Daengweb.id',
+        title: 'Corona - IMK',
       ),
     );
   }

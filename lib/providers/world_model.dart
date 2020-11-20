@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 
 class WorldModel {
-  final String confirmed;
-  final String recovered;
-  final String deaths;
+  final String newconfirmed;
+  final String totalconfirmed;
+  final String newrecovered;
+  final String totalrecovered;
+  final String newdeaths;
+  final String totaldeaths;
 
   WorldModel({
-    @required this.confirmed,
-    @required this.recovered,
-    @required this.deaths,
+    this.newconfirmed,
+    this.totalconfirmed,
+    this.newrecovered,
+    this.totalrecovered,
+    this.newdeaths,
+    this.totaldeaths,
   });
 }

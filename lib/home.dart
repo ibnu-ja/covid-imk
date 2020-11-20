@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.pinkAccent,
-        title: const Text('Lawan Covid19 - [Daengweb.id]'),
+        title: const Text('Lawan Covid19 - IMK'),
       ),
       //PENERAPAN REFRESH INDICATOR AGAR KETIKA LAYAR DITARIK DARI ATAS KE BAWAH, MAKA SECARA OTOMATIS AKAN MELOAD DATA BARU
       body: RefreshIndicator(

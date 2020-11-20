@@ -8,10 +8,10 @@ class SummaryCard extends StatelessWidget {
 
   //HANDLE DATA YANG DIKIRIMKAN
   SummaryCard(
-      {@required this.total,
-      @required this.label,
-      @required this.color,
-      @required this.size});
+      {this.total,
+      this.label,
+       this.color,
+       this.size});
 
   @override
   Widget build(BuildContext context) {
